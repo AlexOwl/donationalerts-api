@@ -1,14 +1,14 @@
 {
-  "name": "donationalerts",
+  "name": "donationalerts-api",
   "description": "Internal DonationAlerts API interaction",
   "keywords": ["donationalerts", "donationalerts.ru", "donation", "alerts", "donate", "twitch", "api", "centrifuge", "centrifugo", "socket.io"],
   "license": "MIT",
   "author": "Alex Owl <AlexOwl@protonmail.com> (https://AlexOwl.github.com/)",
-  "homepage": "https://github.com/AlexOwl/donationalerts#readme",
-  "repository": "AlexOwl/donationalerts",
+  "homepage": "https://github.com/AlexOwl/donationalerts-api#readme",
+  "repository": "AlexOwl/donationalerts-api",
   "bugs": {
     "email": "AlexOwl@protonmail.com",
-    "url": "https://github.com/AlexOwl/donationalerts/issues"
+    "url": "https://github.com/AlexOwl/donationalerts-api/issues"
   },
   "version": "0.0.1-alpha.0",
   "main": "lib/index.js",
