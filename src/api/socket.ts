@@ -74,7 +74,8 @@ export class DASocket extends Emittery<{
         this.socket = io(`${this.socketUrl}`, {
             reconnection: true,
             reconnectionDelay: RECONNECTION_DELAY_MIN,
-            reconnectionDelayMax: RECONNECTION_DELAY_MAX
+            reconnectionDelayMax: RECONNECTION_DELAY_MAX,
+            transports: ["websocket"]
         })
 
         const callbacks = {
