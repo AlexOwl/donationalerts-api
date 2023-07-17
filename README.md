@@ -37,7 +37,7 @@ dawidget.api.getUser().then(user => console.log(
 ))
 
 dawidget.socket.on(EventName.Donation, donation => console.log(
-    "socket:donation"
+    "socket:donation",
     donation.username, 
     donation.message, 
     donation.amount, 
